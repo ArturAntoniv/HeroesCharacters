@@ -1,0 +1,55 @@
+{
+  "heroes": [
+    {
+      "id": "99a62a60-63e7-4b19-b805-8c4ae81c9ead",
+      "name": "Romass",
+      "description": "Я дуже розумний",
+      "element": "wind"
+    },
+    {
+      "id": "fbb55d74-0f99-4b89-81f3-f6330cbef87e",
+      "name": "Art",
+      "description": "Я вмію ВСЕ",
+      "element": "water"
+    },
+    {
+      "id": "6e88202c-4ed3-4f5a-9312-6bfa49d8604d",
+      "name": "Котя",
+      "description": "дряпатися",
+      "element": "earth"
+    },
+    {
+      "id": "885aa862-9494-42f8-9192-a11152526a9c",
+      "name": "Nat",
+      "description": "I have nice ass",
+      "element": "fire"
+    }
+  ],
+  "filters": [
+    {
+      "name": "all",
+      "label": "Всі",
+      "className": "btn-outline-dark"
+    },
+    {
+      "name": "fire",
+      "label": "Вогонь",
+      "className": "btn-danger"
+    },
+    {
+      "name": "water",
+      "label": "Вода",
+      "className": "btn-primary"
+    },
+    {
+      "name": "wind",
+      "label": "Вітер",
+      "className": "btn-success"
+    },
+    {
+      "name": "earth",
+      "label": "Земля",
+      "className": "btn-secondary"
+    }
+  ]
+}
