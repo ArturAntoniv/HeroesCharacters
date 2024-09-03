@@ -41,14 +41,14 @@ const HeroesList = () => {
 	if (heroesLoadingStatus === "loading") {
 		return <Spinner />;
 	} else if (heroesLoadingStatus === "error") {
-		return <h5 className="text-center mt-5">Ошибка загрузки</h5>;
+		return <h5 className="text-center mt-5">Помилка загрузки</h5>;
 	}
 
 	const renderHeroesList = (arr) => {
 		if (arr.length === 0) {
 			return (
 				<CSSTransition timeout={0} classNames="hero">
-					<h5 className="text-center mt-5">Героев пока нет</h5>
+					<h5 className="text-center mt-5">Героїв поки нема</h5>
 				</CSSTransition>
 			);
 		}
