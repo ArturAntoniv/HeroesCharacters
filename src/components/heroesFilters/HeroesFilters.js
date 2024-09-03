@@ -51,7 +51,7 @@ const HeroesFilters = () => {
     return (
         <div className="card shadow-lg mt-4">
             <div className="card-body">
-                <p className="card-text">Відфільтруйте героев по елементах</p>
+                <p className="card-text">Відфільтруйте героїв по елементах</p>
                 <div className="btn-group">
                     {elements}
                 </div>
